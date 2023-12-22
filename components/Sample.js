@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import kid from '../public/img/garrykid.jpg';
-import kid2 from '../public/img/garrykid2.jpg';
+import fight from '../public/img/gfight.jpg';
 
 export default function Sample() {
   return (
@@ -53,11 +53,13 @@ export default function Sample() {
                   must have hurt when she explained he'd left her for another woman. '
                 </p>
               </div>
+              <div className="bg-white rotate-1 pt-4 pb-14 pl-4 pr-4 ml-16 shadow-md absolute -right-40 translate-y-12 max-w-[400px] hidden md:block">
+              <Image src={fight} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"/>
             </div>
-            <div className="bg-white rotate-1 pt-4 pb-14 pl-4 pr-4 ml-16 shadow-md absolute -right-40 translate-y-12 max-w-[400px] hidden md:block">
-              <Image src={kid2} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"/>
             </div>
+         
           </div>
+       
         </div>
       </div>
       <div className="order-4">
