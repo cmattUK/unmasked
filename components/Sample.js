@@ -55,7 +55,7 @@ export default function Sample() {
               </div>
             </div>
             <div className="bg-white rotate-1 pt-4 pb-14 pl-4 pr-4  mr-14 shadow-md absolute -right-60 translate-y-12 max-w-[400px] hidden md:block">
-              <Image src={fight} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"/>
+              <Image src={kid} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"/>
             </div>
          
           </div>
