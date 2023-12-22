@@ -54,7 +54,7 @@ export default function Sample() {
                 </p>
               </div>
             </div>
-            <div className="bg-white pt-4 pb-8 md:pb-14 pl-2 md:pl-4 pr-2 md:pr-4 md:mr-12 -rotate-2 shadow-md lg:absolute md:absolute lg:-right-60 lg:-translate-y-6  md:-right-60 md:-translate-y-6  max-w-[300px] md:max-w-[400px] lg:max-w-[400] ">
+            <div className="bg-white rotate-1 pt-4 pb-14 pl-4 pr-4 ml-16 shadow-md absolute -right-40 translate-y-12 max-w-[400px] hidden md:block">
               <Image src={kid2} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"/>
             </div>
           </div>
