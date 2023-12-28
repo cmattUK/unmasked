@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 import kid from '../public/img/garrykid.jpg';
-import fight from '../public/img/gfight.jpg';
+import kid2 from '../public/img/fightimage.jpg';
 import { FaQuoteLeft } from "react-icons/fa";
 import {Element} from 'react-scroll';
 
@@ -68,12 +68,12 @@ export default function Sample() {
                       right mess. There were broken cups and plates lying about. Ornaments were broken.
                       Even one of a pair of big brass dogs we had in the front was snapped in two,
                       doubtless thrown in rage. Mam wasn't particularly bothered by this stage, though it
-                      must have hurt when she explained he'd left her for another woman. '
+                      must have hurt when she explained he'd left her for another woman.
                     </p>
                   </div>
                 </div>
                 <div className="lg:float-right bg-white xl:rotate-1 lg:-rotate-6 xl:pt-4 xl:pb-14 xl:px-4 lg:px-2 lg:pb-8 lg:pt-2  xl:-mr-14 shadow-md absolute xl:-right-20 xl:-translate-y-28 xl:max-w-[400px] lg:max-w-[200px] lg:right-0 lg:-bottom-24 hidden lg:inline-block">
-                  <Image src={fight} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"/>
+                  <Image src={kid2} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"/>
                 </div>
               </div>
             </div>
