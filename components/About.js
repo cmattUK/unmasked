@@ -1,8 +1,11 @@
+'use client'
 import Image from 'next/image';
-import about from '../public/img/garryabout.jpg';
+import about from '../public/img/garryabout.jpg';;
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 export default function About() {
   return (
+    <Element className="aboutSection" id="about">
     <div className="relative w-full z-20">
       <div className="overflow-hidden md:pt-12 pt-0 mt-0 md:mt-12 mb-12 md:pb-12 pb-0 max-w-[1440px] mx-auto">
         <div className="mx-auto  mt-12 pt-12">
@@ -14,14 +17,14 @@ export default function About() {
                 <p className="leading-1 font-bold  font-sans text-xl md:text-2xl text-[#dacf89] pb-8">But all that came after. First, he faced a harrowing battle against adversity, honing the power of positive thinking to survive and overcome the trauma of an abusive childhood.</p>
               </div>
             </div>
-            <div className="flex justify-items-center order-1 md:order-2">
-            <Image src={about} className='w-full h-auto'  alt="A picture of Chris Matthewman"  priority/>
+            <div className="flex justify-items-center justify-center order-1 md:order-2 flex-col ">
+            <Image src={about} className=''  alt="A picture of Chris Matthewman"  priority/>
             </div>
           </div>
         </div>
-    
       </div>
     </div>
+    </Element>
   )
 }
 

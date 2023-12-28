@@ -15,7 +15,11 @@ export default function Order() {
               </div>
               <div className="lg:pt-4 flex h-full justify-items-center items-center pr-8 w-6/12 mx-auto text-center">
                 <div className="mx-auto">
-                  <h2 className="font-display leading-1 text-white text-6xl uppercase pb-8">Coming soon</h2>
+                  <div>
+                    <hr className="w-4/12 mx-auto h-px bg-neutral-700 border-0 md:mt-12"/>
+                    <p className="text-neutral-200 text-center font-light font-sans text-lg mt-4 italic md:mb-16 mb-8 px-4 md:px-0">It's painful to relive the past. <br/>But sometimes you need to relive the past to heal from it <span className="font-bold">- Garry Bell</span></p>
+                  </div>
+                  <h2 className="font-display leading-1 text-white text-8xl uppercase pb-8">Coming soon</h2>
                  <p className="leading-1 font-light font-sans text-lg text-[#dacf89] pb-8"><a className="px-6 py-3 bg bg-[#dacf89]  text-black hover:bg-amber-400 inline-block text-center hover:cursor-pointer uppercase"  target="_blank" rel="noopener noreferrer" >preorder</a></p>
                  <p className="leading-1 font-sans text-white pb-8 font-normal"> </p>
                   

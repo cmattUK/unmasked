@@ -17,6 +17,7 @@ const config: Config = {
         'hero': "url('/img/portrait.png')",
         'heroback': "url('/img/heroback.jpg')",
         'herobacksm': "url('/img/untitledsmall.jpg')",
+        'herobackmed': "url('/img/portraitmed.jpg')",
         'glassback': "url('/img/glass.jpg')",
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',

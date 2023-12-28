@@ -1,11 +1,14 @@
+'use client';
 import Image from 'next/image';
 import kid from '../public/img/garrykid.jpg';
 import fight from '../public/img/gfight.jpg';
+import {Element} from 'react-scroll';
 
 export default function Sample() {
   return (
-    <div className="relative w-full  bg-neutral-100 overflow-hidden pb-12 flex flex-col md:flex-none">
-      <div className="bg-white rotate-1 pt-4 pb-14 pl-4 pr-4 ml-16 shadow-md absolute -left-60 translate-y-12 max-w-[400px] hidden md:block">
+    <Element className="sampleSection" id="sample">
+    <div className="relative w-full bg-neutral-100 overflow-hidden pb-12 flex flex-col md:flex-none">
+      <div className="bg-white xl:rotate-1 lg:rotate-6 lg:mt-8 xl:pt-4 xl:pb-14 xl:px-4 lg:px-2 lg:pb-8 lg:pt-2 ml-16 shadow-md absolute xl:-left-60 lg:-left-20  xl:translate-y-12 xl:max-w-[400px] lg:max-w-[200px] hidden md:block">
         <Image src={kid} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"  priority/>
       </div>
       <div className="overflow-hidden pt-4 md:pt-12 md:mt-12 mt-0 md:mb-12 mb-8 md:pb-12 max-w-[1440px] mx-auto order-1">
@@ -18,7 +21,7 @@ export default function Sample() {
           <div className="mx-auto md:grid md:max-w-2xl md:grid-cols-1  lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="lg:pt-4 flex h-full justify-items-center items-center px-4 md:px-8">
               <div className="text-base">
-                <p className="leading-1 font-sans text-neutral-700 pb-8 font-light italic inline-block">
+                <p className="leading-1 font-sans text-neutral-700 pb-8 font-normal inline-block">
                   Next morning, we discovered holes punched in doors and walls with broken glass on
                   the carpet. Nothing unusual about that, really. Dad was forever punching walls and
                   doors, then making a mess patching them up with scrunched up newspaper and cheap
@@ -37,7 +40,7 @@ export default function Sample() {
             </div>
             <div className="lg:pt-4 flex h-full justify-items-center items-center px-4 md:px-8">
               <div className="">
-                <p className="leading-1 font-sans text-neutral-700 pb-8 font-light italic">
+                <p className="leading-1 font-sans text-neutral-700 pb-8 font-normal">
                   We didn't dare say anything for fear of inflaming matters, especially when dad came in from the
                   back garden, obviously released without charge. And, so, we put up and shut up,
                   hoping it would all eventually settle down and blow over. Not a chance. Things only
@@ -54,19 +57,15 @@ export default function Sample() {
                 </p>
               </div>
             </div>
-            <div className="bg-white rotate-1 pt-4 pb-14 pl-4 pr-4  mr-14 shadow-md absolute -right-60 translate-y-12 max-w-[400px] hidden md:block">
+            <div className="lg:float-right bg-white xl:rotate-1 lg:-rotate-6 xl:pt-4 xl:pb-14 xl:px-4 lg:px-2 lg:pb-8 lg:pt-2  xl:mr-14 shadow-md absolute xl:-right-60 xl:translate-y-12 xl:max-w-[400px] lg:max-w-[200px] lg:right-0 lg:-bottom-24 hidden lg:inline-block">
               <Image src={kid} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"/>
             </div>
-         
           </div>
-       
         </div>
       </div>
-      <div className="order-4">
-        <hr className="w-4/12 mx-auto h-px bg-neutral-700 border-0 md:mt-12"/>
-        <p className="text-neutral-700 text-center font-light font-sans text-xs mt-4 italic md:mb-16 mb-8 px-4 md:px-0">It's painful to relive the past. <br/>But sometimes you need to relive the past to heal from it <span className="font-bold">- Garry Bell</span></p>
-      </div>
+
     </div>
+    </Element>
   )
 }
 
