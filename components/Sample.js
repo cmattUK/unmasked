@@ -72,7 +72,7 @@ export default function Sample() {
                     </p>
                   </div>
                 </div>
-                <div className="lg:float-right bg-white xl:rotate-1 lg:-rotate-6 xl:pt-4 xl:pb-14 xl:px-4 lg:px-2 lg:pb-8 lg:pt-2  xl:-mr-14 shadow-md absolute xl:-right-20 xl:-translate-y-28 xl:max-w-[400px] lg:max-w-[200px] lg:right-0 lg:-bottom-24 hidden lg:inline-block">
+                <div className="lg:float-right bg-white xl:rotate-1 lg:-rotate-6 xl:pt-4 xl:pb-14 xl:px-4 lg:px-2 lg:pb-8 lg:pt-2  xl:-mr-2y4 shadow-md absolute  xl:max-w-[400px] lg:max-w-[200px] lg:right-0 hidden lg:inline-block">
                   <Image src={kid2} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"/>
                 </div>
               </div>
