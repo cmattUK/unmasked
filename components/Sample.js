@@ -10,7 +10,7 @@ export default function Sample() {
     <Element className="sampleSection" id="sample">
       <section className="readasample">
         <div className="relative w-full bg-neutral-100 overflow-hidden pb-12 flex flex-col md:flex-none">
-          <div className="bg-white xl:rotate-1 lg:rotate-6 lg:mt-8 xl:pt-4 xl:pb-14 xl:px-4 lg:px-2 lg:pb-8 lg:pt-2 ml-16 shadow-md absolute xl:-left-60 lg:-left-20  xl:translate-y-12 xl:max-w-[400px] lg:max-w-[200px] hidden md:block">
+          <div className="bg-white xl:rotate-1 lg:rotate-6 lg:mt-8 xl:pt-4 xl:pb-14 xl:px-4 lg:px-2 lg:pb-8 lg:pt-2 ml-16 shadow-md absolute xl:-left-20 lg:-left-20  xl:translate-y-12 xl:max-w-[300px] lg:max-w-[200px] hidden md:block">
             <Image src={kid} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"  priority/>
           </div>
           <div className="overflow-hidden pt-4 md:pt-12 md:mt-12 mt-0 md:mb-12 mb-8 md:pb-12 max-w-[1440px] lg:mx-auto order-1">
@@ -72,7 +72,7 @@ export default function Sample() {
                     </p>
                   </div>
                 </div>
-                <div className="lg:float-right bg-white xl:rotate-1 lg:-rotate-6 xl:pt-4 xl:pb-14 xl:px-4 lg:px-2 lg:pb-8 lg:pt-2  xl:-mr-2y4 shadow-md absolute  xl:max-w-[400px] lg:max-w-[200px] lg:right-0 hidden lg:inline-block">
+                <div className="lg:float-right bg-white xl:-rotate-1 lg:-rotate-6 xl:pt-4 xl:pb-14 xl:px-4 lg:px-2 lg:pb-8 lg:pt-2  shadow-md absolute  xl:max-w-[300px] lg:max-w-[200px] lg:right-0 lg:bottom-20 hidden lg:inline-block">
                   <Image src={kid2} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"/>
                 </div>
               </div>
