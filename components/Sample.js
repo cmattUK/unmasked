@@ -8,9 +8,9 @@ import {Element} from 'react-scroll';
 export default function Sample() {
   return (
     <Element className="sampleSection" id="sample">
-      <section className="readasample">
+      <section className="readasample overflow-hidden">
         <div className="relative w-full bg-neutral-100 overflow-hidden pb-12 flex flex-col md:flex-none">
-          <div className="bg-white xl:rotate-1 lg:rotate-6 lg:mt-8 xl:pt-4 xl:pb-14 xl:px-4 lg:px-2 lg:pb-8 lg:pt-2 ml-16 shadow-md absolute xl:-left-20 lg:-left-20  xl:translate-y-12 xl:max-w-[300px] lg:max-w-[200px] hidden md:block">
+          <div className="bg-white xl:rotate-16 md:rotate-12 lg:rotate-6 pt-4 pb-8 pl-2 pr-2 lg:mt-8 2xl:pt-4 2xl:pb-12 2xl:px-4 lg:px-2 lg:pb-8 lg:pt-2 ml-8 shadow-md absolute 2xl:-left-10 lg:-left-10 2xl:-top-20  2xl:translate-y-12 2xl:max-w-[300px] max-w-[200px] hidden md:block">
             <Image src={kid} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"  priority/>
           </div>
           <div className="overflow-hidden pt-4 md:pt-12 md:mt-12 mt-0 md:mb-12 mb-8 md:pb-12 max-w-[1440px] lg:mx-auto order-1">
@@ -31,7 +31,7 @@ export default function Sample() {
                     </p> 
 
                     <aside className="pullQ">
-                      <blockquote className="float-left w-6/12  py-4  font-display text-3xl text-neutral-800 border border-r-0 border-l-0 border-b-2 border-t-2 border-[#dacf89] mr-8 my-4 md:mb-2 xl:-ml-8">
+                      <blockquote className="float-left md:w-6/12 w-full  py-4  font-display text-3xl text-neutral-800 border border-r-0 border-l-0 border-b-2 border-t-2 border-[#dacf89] mr-8 my-4 md:mb-2 2xl:-ml-8">
                           <p><span className="text-[#dacf89]"><FaQuoteLeft className="inline-block mr-2 mb-4"/></span>I kept saying, daddy, daddy, please stop. I never called him daddy ever.</p>
                       </blockquote>
                     </aside>
@@ -72,11 +72,17 @@ export default function Sample() {
                     </p>
                   </div>
                 </div>
-                <div className="lg:float-right bg-white xl:-rotate-1 lg:-rotate-6 xl:pt-4 xl:pb-14 xl:px-4 lg:px-2 lg:pb-8 lg:pt-2  shadow-md absolute  xl:max-w-[300px] lg:max-w-[200px] lg:right-0 lg:bottom-20 hidden lg:inline-block">
+
+               
+              </div>
+             
+            </div>
+            <div className=" bg-white -rotate-2 md:-rotate-12 px-2 pb-8 pt-2 shadow-md max-h-[260px] md:max-w-[200px] lg:mb-0 right-0  md:top-0 top-10 hidden absolute md:inline-block 2xl:hidden">
                   <Image src={kid2} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"/>
                 </div>
-              </div>
-            </div>
+            <div className=" bg-white -rotate-2 pt-4 pb-14 px-4 shadow-md absolute 2xl:max-w-[300px] 2xl:max-h-[370px] bottom-0 right-0 z-30 hidden 2xl:inline-block">
+                  <Image src={kid2} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"/>
+                </div>
           </div>
         </div>
       </section>
