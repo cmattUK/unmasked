@@ -16,7 +16,9 @@ export default function Hero() {
                   <div className="absolute lg:relative bottom-0 pb-8 md:pb-0 mb-8 z-30">
                     <h1 className="font-mono font-black leading-none  text-white  text-xl md:text-3xl lg:text-2xl xl:text-6xl uppercase">GARRY BELL</h1>
                     <h2 className=" font-display leading-none text-[#dacf89] text-7xl md:text-[10rem] lg:text-9xl xl:text-[17rem] uppercase pb-4 md:pb-0 drop-shadow-lg md:drop-shadow-none">Unmasked</h2>
-                    <p className="pt-0 -mt-4 lg:mt-2 leading-1 font-normal font-sans text-white text-sm md:text-xl w-11/12">A warts and all tale of courage, fortitude, determination and humour, delicately penned to provide hope, help and inspiration for anyone experiencing difficulties of their own...</p>
+                    <p className="pt-0 -mt-4 lg:mt-2 leading-1 font-normal font-sans text-white text-sm md:text-xl w-11/12">A powerful tale of courage, fortitude and determination, delicately penned to provide hope, help and inspiration for anyone experiencing difficulties of their own<br/>
+                    <a className="mt-4 px-4 py-2 bg-none  border-white border-2  text-white hover:border-[#dacf89]y hover:bg-[#dacf89] hover:text-black inline-block text-center hover:cursor-pointer uppercase text-normal md:text-xl font-bold"  target="_blank" rel="noopener noreferrer" >Get the book</a>
+                    </p>
                   </div>
                 </div>
               </div>
