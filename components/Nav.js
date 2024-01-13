@@ -20,7 +20,7 @@ export default function Nav() {
               <li className="font-display leading-none text-[#dacf89] text-3xl md:text-4xl uppercase block mt-1 hover:cursor-pointer hover:underline  border-neutral-600 mr-2 pr-4"><button onClick={toggleMenu}><Image src={logo} className='w-full max-w-[150px]'  alt="A picture of Chris Matthewman"/></button></li>
             </Link>
           </ul>
-        <ul className="font-sans text-base uppercase flex flex-col text-white px-4">
+        <ul className="font-sans text-base uppercase flex flex-col text-white px-4 justify-center justify-items-center h-full">
           <Link activeClass="active" to="aboutSection" spy={true} smooth={true} duration={500}>              
             <li className="hover:cursor-pointer hover:underline py-4 border border-b-2 border-t-0 border-r-0 border-l-0 border-neutral-200"><button onClick={toggleMenu}>About</button></li>
           </Link>
@@ -31,15 +31,15 @@ export default function Nav() {
         </ul>
       </div>
 
-      <nav className='w-full  bg-neutral-950 border-b border-neutral-800 fixed z-40 md:py-4 py-2'>
+      <nav className='w-full bg-neutral-950 border-b border-neutral-800 fixed z-40'>
         <div>
-          <ul className="py-2 px-4 md:px-8 font-sans text-xl uppercase float-left w-full md:w-4/12">
+          <ul className="px-4 md:px-8 font-sans text-xl uppercase float-left w-full md:w-4/12 flex justify-items-center">
             <Link activeClass="active" to="heroSection" spy={true} smooth={true} duration={500}>
               <li className="float-left font-display leading-none text-[#dacf89] text-xl md:text-4xl uppercase inline-block mt-1 md:mt-0 lg:mt-1  hover:cursor-pointer hover:underline  border-neutral-600 mr-2 pr-4"><button><Image src={logo} className='w-full max-w-[150px]'  alt="A picture of Chris Matthewman"/></button></li>
             </Link>
             <li className="md:hidden font-display leading-none text-white text-xl md:text-4xl uppercase inline-block float-right mt-4 hover:cursor-pointer hover:underline" onClick={toggleMenu}><button>{menuOpen ? <FaTimes/> : <FaBars/>}</button></li>
           </ul>
-          <ul className="py-2 px-8 mb-2 hidden md:inline-block float-right xl:mt-4">
+          <ul className="px-8 mb-2 hidden md:inline-block float-right xl:mt-4 ">
             <Link activeClass="active" to="aboutSection" spy={true} smooth={true} duration={500}>              
               <li className="px-3 inline-block hover:cursor-pointer hover:underline"><button className="uppercase font-sans hover:underline">About</button></li>
             </Link>

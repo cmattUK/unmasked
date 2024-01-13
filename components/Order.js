@@ -26,10 +26,10 @@ export default function Order() {
                 <p className="leading-1 font-light font-sans text-lg text-[#dacf89] pb-8"><a className="px-6 py-3 bg bg-[#dacf89]  text-black hover:bg-amber-400 inline-block text-center hover:cursor-pointer uppercase"  target="_blank" rel="noopener noreferrer" >preorder</a></p>
                 <p className="leading-1 font-sans text-white pb-8 font-normal"> </p>
                   
-                <ul className="px-8 font-sans font-normal  uppercase py-2">
-                  <li className="md:py-4 md:px-4  mr-2  bg-neutral-950 text-xl  inline-block hover:cursor-pointer hover:underline hover:bg-neutral-700"><a><FaFacebook/></a></li>
-                  <li className="md:py-4 md:px-4  mx-2  bg-neutral-950 text-xl  inline-block hover:cursor-pointer hover:underline hover:bg-neutral-700"><a><FaInstagram/></a></li>
-                  <li className="md:py-4 md:px-4  ml-2  bg-neutral-950 text-xl  inline-block hover:bg-neutral-700 hover:cursor-pointer hover:underline"> <a className=""  target="_blank" rel="noopener noreferrer" ><FaYoutube/></a></li>
+                <ul className="px-8 font-sans font-normal uppercase py-2">
+                  <li className="md:py-4 md:px-4  mr-2  bg-neutral-950 text-xl  inline-block hover:cursor-pointer hover:underline hover:bg-neutral-700"><a href="https://m.facebook.com/ContenderFightAcademy/videos/742484234427839/?extid=WA-UNK-UNK-UNK-IOS_GK0T-GK1C&wtsid=rdr_0NKIcxHtqefOPmSF2&refsrc=deprecated&ref=sharing&_rdr"><FaFacebook/></a></li>
+                  <li className="md:py-4 md:px-4    bg-neutral-950 text-xl  inline-block hover:cursor-pointer hover:underline hover:bg-neutral-700"><a href="https://www.instagram.com/unmaskedbook/"><FaInstagram/></a></li>
+                  {/*<li className="md:py-4 md:px-4  ml-2  bg-neutral-950 text-xl  inline-block hover:bg-neutral-700 hover:cursor-pointer hover:underline"> <a className=""  target="_blank" rel="noopener noreferrer" ><FaYoutube/></a></li>*/}
                 </ul>
               </div>
             </div>
