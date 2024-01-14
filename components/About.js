@@ -19,7 +19,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="flex justify-items-center justify-center order-1 md:order-2 flex-col ">
-                  <Image src={about} className=''  alt="A picture of Chris Matthewman"  priority/>
+                  <Image src={about} className=''  alt="A black and white image of Garry Bell standing in a boxing ring wearing boxing gloves and fight shorts" priority/>
                 </div>
               </div>
             </div>

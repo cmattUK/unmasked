@@ -11,14 +11,14 @@ export default function Sample() {
       <section className="readasample overflow-hidden">
         <div className="relative w-full bg-neutral-100 overflow-hidden pb-12 flex flex-col md:flex-none">
           <div className="bg-white xl:rotate-16 md:rotate-12 lg:rotate-6 pt-4 pb-8 pl-2 pr-2 lg:mt-8 2xl:pt-4 2xl:pb-12 2xl:px-4 lg:px-2 lg:pb-8 lg:pt-2 ml-8 shadow-md absolute 2xl:-left-10 lg:-left-10 2xl:-top-20  2xl:translate-y-12 2xl:max-w-[300px] max-w-[200px] hidden md:block">
-            <Image src={kid} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"  priority/>
+            <Image src={kid} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="An image of a Garry Bell as a child wearing a bandana. He's shirtless in a karate pose, he has scars painted on his body."  priority/>
           </div>
           <div className="overflow-hidden pt-4 md:pt-12 md:mt-12 mt-0 md:mb-12 mb-8 md:pb-12 max-w-[1440px] lg:mx-auto order-1">
             <div className="mx-auto  mt-12 pt-12">
               <h2 className="text-1xl leading-0 -mt-8 text-neutral-800 text-center font-light pb-2 uppercase">Read a Sample</h2>
               <h3 className="font-display leading-1 text-neutral-800 text-6xl uppercase pb-12 text-center underline underline-offset-8">from the book</h3>
               <div className="bg-white rotate-2 pt-4 pb-8 pl-2 pr-2 shadow-md max-w-[300px] md:hidden visible mx-auto mb-8">
-            <Image src={kid} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"  priority/>
+            <Image src={kid} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="An image of a Garry Bell as a child wearing a bandana. He's shirtless in a karate pose, he has scars painted on his body."  priority/>
           </div>
               <div className="mx-auto md:grid md:max-w-2xl md:grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                 <div className="lg:pt-4 flex h-full justify-items-center  px-4 md:px-8">
@@ -78,10 +78,10 @@ export default function Sample() {
              
             </div>
             <div className=" bg-white -rotate-2 md:-rotate-12 px-2 pb-8 pt-2 shadow-md max-h-[260px] md:max-w-[200px] lg:mb-0 right-0  md:top-0 top-10 hidden absolute md:inline-block 2xl:hidden">
-                  <Image src={kid2} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"/>
+                  <Image src={kid2} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="An image of adult Garry Bell fighting as a pro kickboxer"/>
                 </div>
             <div className=" bg-white -rotate-2 pt-4 pb-14 px-4 shadow-md absolute 2xl:max-w-[300px] 2xl:max-h-[370px] bottom-0 right-0 z-30 hidden 2xl:inline-block">
-                  <Image src={kid2} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="A picture of Chris Matthewman"/>
+                  <Image src={kid2} className='w-full contrast-125 saturate-50 border-neutral-300 border'  alt="An image of adult Garry Bell fighting as a pro kickboxer"/>
                 </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="max-w-[1440px] mx-auto flex flex-col justify-items-center justify-center md:block">
           <ul className="px-8 font-sans text-xl uppercase  mt-1 text-center">
             <li className=" font-display leading-none text-white text-2xl uppercase inline-block hover:cursor-pointer hover:underline">
-                <Image src={logo} className='w-full max-w-[150px]'  alt="A picture of Chris Matthewman"/>
+                <Image src={logo} className='w-full max-w-[150px]'  alt="The Unmasked book logo in white"/>
             </li>
           </ul>
           <ul className="px-8 font-sans font-normal  uppercase text-center">
