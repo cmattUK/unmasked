@@ -8,7 +8,7 @@ export default function About() {
     <Element className="aboutSection bg-black" id="about">
       <section className="about">
         <div className="relative w-full z-20">
-          <div className="overflow-hidden md:pt-12 pt-0 mt-0 md:mt-12 mb-12 md:pb-12 pb-0 max-w-[1440px] mx-auto">
+          <div className="overflow-hidden md:pt-12 pt-0 mt-0  md:pb-12 pb-0 max-w-[1440px] mx-auto">
             <div className="mx-auto  mt-12 pt-12">
               <div className="mx-auto md:grid ms:max-w-2xl d:grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2 flex flex-col md:flex-none">
                 <div className="lg:pt-4 flex h-full justify-items-center items-center px-4 md:px-8 order-2 md:order-1">

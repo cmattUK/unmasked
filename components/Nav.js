@@ -39,7 +39,7 @@ export default function Nav() {
             </Link>
             <li className="md:hidden font-display leading-none text-white text-xl md:text-4xl uppercase inline-block float-right mt-4 hover:cursor-pointer hover:underline pt-1" onClick={toggleMenu}><button>{menuOpen ? <FaTimes/> : <FaBars/>}</button></li>
           </ul>
-          <ul className="px-8 hidden md:inline-block float-right pt-5">
+          <ul className="px-8 hidden md:inline-block float-right pt-5 text-white">
             <Link activeClass="active" to="aboutSection" spy={true} smooth={true} duration={500}>              
               <li className="px-3 inline-block hover:cursor-pointer hover:underline"><button className="uppercase font-sans hover:underline">About</button></li>
             </Link>
