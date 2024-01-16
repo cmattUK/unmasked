@@ -5,7 +5,7 @@ import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } f
 
 export default function About() {
   return (
-    <Element className="aboutSection" id="about">
+    <Element className="aboutSection bg-black" id="about">
       <section className="about">
         <div className="relative w-full z-20">
           <div className="overflow-hidden md:pt-12 pt-0 mt-0 md:mt-12 mb-12 md:pb-12 pb-0 max-w-[1440px] mx-auto">
