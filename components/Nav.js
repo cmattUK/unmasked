@@ -33,7 +33,7 @@ export default function Nav() {
 
       <nav className='w-full bg-neutral-950 border-b border-neutral-800 fixed z-40'>
         <div>
-          <ul className="px-4 md:px-8 font-sans text-xl uppercase float-left w-full md:w-4/12 flex flex-row justify-items-center justify-between py-2">
+          <ul className="px-4 md:px-8 font-sans text-xl uppercase float-left w-full md:w-4/12 flex flex-row justify-items-center justify-between ">
             <Link activeClass="active" to="heroSection" spy={true} smooth={true} duration={500}>
               <li className="float-left font-display leading-none text-[#dacf89] text-xl md:text-4xl uppercase inline-block mt-1 md:mt-0 lg:mt-1  hover:cursor-pointer hover:underline  border-neutral-600 mr-2 pr-4"><button><Image src={logo} className='w-full max-w-[150px] mt-2'  alt="Garry Bell Unmaksed book logo"/></button></li>
             </Link>
