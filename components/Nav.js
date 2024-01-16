@@ -4,7 +4,7 @@ import { FaTimes } from "react-icons/fa";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from "react-scroll";
 import Image from 'next/image';
 import logo from '../public/img/logo.png';
-import {useState, useEffect} from 'react';
+import {useState, useEffect, useRef} from 'react';
 
 export default function Nav() {
   const [menuOpen, setMenu] = useState(false);
